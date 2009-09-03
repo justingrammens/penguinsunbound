@@ -25,12 +25,22 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="#000"
-                />             
-            <TextView android:id="@+id/android:empty"
+                />
+                
+            <ListView
+                android:id="@+id/listview1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#000"
+            />
+                
+            <!-- Here is the view to show if the list is emtpy -->             
+            <!-- <TextView android:id="@+id/android:empty"
         		android:layout_width="wrap_content"
         		android:layout_height="wrap_content"
         		android:padding="10px"
-        		android:text="@string/no_feeds"/>     
+        		android:text="@string/no_feeds"/> 
+        		-->
     	</FrameLayout>
     </LinearLayout>
 </TabHost>
